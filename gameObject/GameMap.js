@@ -13,8 +13,8 @@ export default class GameMap {
     ctx.canvas.width = this.width;
     ctx.canvas.height = this.height;
 
-    let rows = ~~(this.width / 44) + 1;
-    let columns = ~~(this.height / 44) + 1;
+    const rows = ~~(this.width / 44) + 1;
+    const columns = ~~(this.height / 44) + 1;
 
     let color = "red";
     ctx.save();
@@ -43,12 +43,13 @@ export default class GameMap {
 
     // didactic way ( "s" is for "source" and "d" is for "destination" in the variable names):
 
-    let sx, sy, dx, dy;
-    let sWidth, sHeight, dWidth, dHeight;
-
+    // location on canvas to draw the croped image
+    const dx = 0;
+    const dy = 0;
     // offset point to crop the image
-    sx = xView;
-    sy = yView;
+    const sx = xView;
+    const sy = yView;
+    let sWidth, sHeight;
 
     // dimensions of cropped image
     sWidth = context.canvas.width;
@@ -62,12 +63,9 @@ export default class GameMap {
       sHeight = this.image.height - sy;
     }
 
-    // location on canvas to draw the croped image
-    dx = 0;
-    dy = 0;
     // match destination with source to not scale the image
-    dWidth = sWidth;
-    dHeight = sHeight;
+    const dWidth = sWidth;
+    const dHeight = sHeight;
 
     context.drawImage(
       this.image,
