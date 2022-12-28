@@ -1,6 +1,6 @@
 # 🧐 이게 뭔가요?
 
-부스트캠프 학습 스프린트 과제 중에서 표준 JS 명세 중 하나인 `canvas`를 사용해서 gatherTown 같은 서비스를 만들어 보는 과제를 부여받았습니다. 일반적인 2D게임처럼, 캐릭터가 움직일 때, 필요 시 카메라도 함께 움직이는 로직이 필요했습니다. 최대한 바닐라JS로 구현하려 하였기에, 관련 사항을 구글링 했었고, 좋은 자료를 찾긴 했습니다.
+훌륭한 프론트엔드 개발자가 되기 위해서 하던 공부 중에서 표준 JS 명세 중 하나인 `canvas`를 사용해서 gatherTown 같은 서비스를 만들어 보는 과제를 부여받았습니다. 일반적인 2D게임처럼, 캐릭터가 움직일 때, 필요 시 카메라도 함께 움직이는 로직이 필요했습니다. 최대한 바닐라JS로 구현하려 하였기에, 관련 사항을 구글링 했었고, 좋은 자료를 찾긴 했습니다.
 
 - [Stack overflow : HTML5 Canvas camera/viewport - how to actually do it?](https://stackoverflow.com/questions/16919601/html5-canvas-camera-viewport-how-to-actually-do-it)
 
